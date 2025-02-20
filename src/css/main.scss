@@ -1,0 +1,39 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+@font-face {
+    font-family: "Instrument Sans";
+    font-weight: bold;
+    src: url("/fonts/InstrumentSans/InstrumentSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Instrument Sans";
+    font-weight: normal;
+    src: url("/fonts/InstrumentSans/InstrumentSans-Regular.ttf");
+}
+
+.instrument-sans-bold {
+    font-family: "Instrument Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
+
+  .instrument-sans {
+    font-family: "Instrument Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
+
+  .emerg-btn {
+    button {
+        background-color: #d85c6c;
+        padding: 20px;
+        border-radius: 10px;    
+    }
+}
